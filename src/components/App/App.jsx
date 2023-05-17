@@ -47,6 +47,7 @@ const App = () => {
   const handleDeleteContact = (contactId) => {
     setContacts(contacts.filter((contact) => contact.id !== contactId));
   };
+  
 
   const getFilteredContacts = () => {
     const normalizedFilter = filter.toLowerCase();
